@@ -1,0 +1,29 @@
+# Dataset kompetisi (unduh dari Kaggle, jangan di-commit)
+data/raw/*
+!data/raw/.gitkeep
+*.zip
+
+# Output lokal yang dibuat notebook
+outputs/
+submission/
+
+# Kredensial
+kaggle.json
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
